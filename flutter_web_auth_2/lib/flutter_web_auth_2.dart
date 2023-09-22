@@ -76,7 +76,7 @@ class FlutterWebAuth2 {
       'Do not use redirectOriginOverride in production',
     );
 
-    _assertCallbackScheme(callbackUrlScheme);
+    // _assertCallbackScheme(callbackUrlScheme);
 
     WidgetsBinding.instance.removeObserver(
       _resumedObserver,
